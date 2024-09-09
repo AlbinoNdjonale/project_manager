@@ -1,8 +1,6 @@
 import process from 'process'
 
-const url = document.location.href
-
-const URL_BASE = process.env.NODE_ENV==='development'?"http://127.0.0.1:8000":url.slice(0, url.length-1)
+const URL_BASE = process.env.NODE_ENV==='development'?"http://127.0.0.1:8000":document.location.origin
 
 const then = data => {
 
