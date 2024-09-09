@@ -1,0 +1,93 @@
+@import './base.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f0f0f0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#app {
+  max-width: 1700px;
+  margin: auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#login, #signup {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+}
+
+#login form, #signup form {
+  background: var(--color-1);
+  color: var(--color-3);
+  padding: 13px;
+  border-radius: .7rem;
+  width: 100%;
+  max-width: 400px;
+}
+
+#login form > section, #signup form > section {
+  display: grid;
+}
+
+#login form > section.md, #signup form > section.md {
+  margin-bottom: 20px;
+}
+
+#login label, #signup label {
+  margin-bottom: 4px;
+}
+
+#login input, #signup input {
+  padding: 8px;
+  border-radius: .3rem;
+  border: none;
+  outline: none;
+}
+
+#login button, #signup button {
+  color: var(--color-3);
+  background: var(--color-2);
+  padding: 8px;
+  border-radius: .3rem;
+  border: none;
+  cursor: pointer;
+}
+
+#login a, #signup a {
+  text-decoration: none;
+  color: var(--color-2);
+}
+
+.error {
+  background: var(--color-3);
+  color: var(--color-2);
+  border-radius: .3rem;
+  transition: 0.5s;
+  font-weight: bold;
+  overflow: hidden;
+}
+
+.none-display {
+  height: 0;
+  transition: 1s;
+}
+
+.block-display {
+  height: auto;
+  padding: 8px;
+  margin-bottom: 15px;
+}

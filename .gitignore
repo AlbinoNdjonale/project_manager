@@ -1,0 +1,7 @@
+.env
+/__pycache__/
+/.vscode/
+*/__pycache__/
+/db/app.db
+/static/node_modules/
+requests.http
