@@ -6,6 +6,8 @@ ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
 
 COPY pyproject.toml /app
+
+RUN apt update && apt install postgresql-dev gcc python3-dev musl-dev
 RUN pip install poetry
 RUN poetry install
 
