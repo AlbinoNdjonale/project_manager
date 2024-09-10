@@ -21,7 +21,7 @@
 
       <section id = "apresentation">
         <div class = "container">
-          <h2>Almente sua produtividade</h2>
+          <h2>Aumente sua produtividade</h2>
 
           <div class = "content">
             <p>
