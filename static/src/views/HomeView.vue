@@ -25,10 +25,13 @@
 
           <div class = "content">
             <p>
-              A organização é chave para o sucesso então não percas mais tempo,
-              elimine ja toda a bagunça, gerencie todos os seus
-              projetos de maneira facil e eficiente, controle o orçamento
-              de cada um deles, os autores envolvidos a data do projeto etc.
+              A organização é a chave para o sucesso,
+              então não perca mais tempo.
+              Elimine já toda a bagunça e gerencie
+              todos os seus projetos de maneira fácil e
+              eficiente. Controle o orçamento de cada um
+              deles, os autores envolvidos, a data do
+              projeto, etc.
             </p>
 
             <div>
