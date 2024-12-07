@@ -1,0 +1,1 @@
+import t from"./ProjectView-0095c086.js";import{a as e,k as i}from"./index-47cb850f.js";import"./Footer-7e458b21.js";import"./ManipulateProject-32004913.js";import"./index-64332aa1.js";const u={__name:"invite",props:{link:{required:!0,type:String}},setup(r){return(n,o)=>(e(),i(t,{invite:!0,link:r.link},null,8,["link"]))}};export{u as default};
