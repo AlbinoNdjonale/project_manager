@@ -4,7 +4,7 @@ version = "1.0.0"
 description = "app web para gerências seus projetos"
 authors = ["Albino Ndjonale <albinondjonale1@gmail.com>"]
 readme = "README.md"
-packge-mode = false
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.10"
